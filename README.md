@@ -1,4 +1,4 @@
-# AI-Core-Simplified
+# AI-Core-Simplified - https://75a6-87-255-68-163.ngrok-free.app/ai/view/Brizy/service%20auto
 
 ### Company Name: https://www.loom.com/share/e71077e4fe794dcab3b2d2e70b8ebde6
 ### Global Project Prompt: https://www.loom.com/share/e71077e4fe794dcab3b2d2e70b8ebde6
