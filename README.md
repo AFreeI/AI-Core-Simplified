@@ -1,4 +1,5 @@
-# AI-Core-Simplified - https://c304aec941ac.ngrok.app/ai2/generate/1/true/true/Archiytect/Chisinua/spa%20center
+### AI-Core-Simplified - https://phplaravel-1109775-4163586.cloudwaysapps.com/ai2/generate/1/true/true/Archiytect/Chisinua/spa%20center
+### AI-Core-Simplified - https://c304aec941ac.ngrok.app/ai2/generate/1/true/true/Archiytect/Chisinua/spa%20center
 
 ### Logo: https://www.loom.com/share/c2accfee7baf4e3abfe10faf47d75096
 ### Global Project Prompt: https://www.loom.com/share/e71077e4fe794dcab3b2d2e70b8ebde6
