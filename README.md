@@ -6,3 +6,36 @@
 ### Texts: https://www.loom.com/share/d276ebb5255243f89dbde62c5f8231bf
 ### Images: https://www.loom.com/share/a42bd9f5864944c789af3274690b7c46
 ### Background Images: https://www.loom.com/share/20e581809e5541bb8cf5dff925d5327c
+
+
+
+### Fine tuned models & prompts examples
+
+## Hero Title
+
+(#model-hero-title)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8ViAahvD`
+ - `{{x1 model="ft:gpt-3.5-turbo-1106:brizy::8ViAahvD" user="company: ^^^, industry: %%%, Location: Moldova, Chisinau, Section Name: Hero"}}`
+## Hero Description
+
+(#model-hero-description)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8XVV4tFB`
+ - `{{x2 model="ft:gpt-3.5-turbo-1106:brizy::8XVV4tFB" user="company: ^^^, industry: %%%"}}`
+
+## Single Testimonial
+
+(#model-testimonial)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8XrrNWKO`
+ - `{{x3 model="ft:gpt-3.5-turbo-1106:brizy::8XrrNWKO" user="company: ^^^, industry: %%%"}}`
+
+## Service/Feature name
+
+(#model-service-name)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8YA1l2xo`
+ - `{{x4 model="ft:gpt-3.5-turbo-1106:brizy::8YA1l2xo" user="industry: %%%"}}`
+
+## Feature/Service description
+
+(#model-service-description)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8YDDVhbN`
+ - `{{x5 model="ft:gpt-3.5-turbo-1106:brizy::8YDDVhbN" user="industry: %%%, Item: [Item name here]"}}`
