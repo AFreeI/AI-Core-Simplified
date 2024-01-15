@@ -15,7 +15,13 @@
 
 (#model-hero-title)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8ViAahvD`
- - `{{x1 model="#model-hero-title" user="company: ^^^, industry: %%%, Location: Moldova, Chisinau, Section Name: Hero"}}`
+ - `{{x1 model="#model-hero-title" user="company: ^^^, industry: %%%"}}`
+
+## Hero Title with Location
+(#model-hero-title-location)
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8hHJRzfU`,
+- `{{x1 model="#model-hero-title-location" user="company: ^^^, industry: %%%, Location: Spain, Madrid}}`
+
 ## Hero Description
 
 (#model-hero-description)
