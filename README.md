@@ -15,33 +15,40 @@
 
 (#model-hero-title)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8ViAahvD`
- - `{{x1 model="#model-hero-title" user="company: ^^^, industry: %%%"}}`
+ - `{{x="1" model="#model-hero-title" user="company: ^^^, industry: %%%"}}`
 
 ## Hero Title with Location
 (#model-hero-title-location)
 - Model: `ft:gpt-3.5-turbo-1106:brizy::8hHJRzfU`,
-- `{{x1 model="#model-hero-title-location" user="company: ^^^, industry: %%%, Location: Spain, Madrid}}`
+- `{{x="2" model="#model-hero-title-location" user="company: ^^^, industry: %%%, Location: Spain, Madrid}}`
 
 ## Hero Description
 
 (#model-hero-description)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8XVV4tFB`
- - `{{x2 model="#model-hero-description" user="company: ^^^, industry: %%%"}}`
+ - `{{x="3" model="#model-hero-description" user="company: ^^^, industry: %%%"}}`
+
+## Hero Description with Locatiom
+
+(#model-hero-description-location)
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8hiLtixm`
+ - `{{x="4" model="#model-hero-description-location" user="company: ^^^, industry: %%%, Location: Moldova, Chisinau"}}`
+
 
 ## Single Testimonial
 
 (#model-testimonial)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8XrrNWKO`
- - `{{x3 model="#model-testimonial" user="company: ^^^, industry: %%%"}}`
+ - `{{x="5" model="#model-testimonial" user="company: ^^^, industry: %%%"}}`
 
 ## Service/Feature name
 
 (#model-service-name)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8YA1l2xo`
- - `{{x4 model="#model-service-name" user="industry: %%%"}}`
+ - `{{x="6" model="#model-service-name" user="industry: %%%"}}`
 
 ## Feature/Service description
 
 (#model-service-description)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8YDDVhbN`
- - `{{x5 model="#model-service-description" user="industry: %%%, Item: [Item name here]"}}`
+ - `{{x="7" model="#model-service-description" user="industry: %%%, Item: [Item name here]"}}`
