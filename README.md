@@ -14,41 +14,42 @@
 ## Hero Title
 
 (#model-hero-title)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8ViAahvD`
- - `{{x="1" model="#model-hero-title" user="company: ^^^, industry: %%%"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8ovu1ygK`
+ - `{{x="1" model="#model-hero-title" user="company: ^^^, industry: %%%, context: &&&"}}`
 
-## Hero Title with Location
+## Hero Title with Location and company name
+
 (#model-hero-title-location)
-- Model: `ft:gpt-3.5-turbo-1106:brizy::8hHJRzfU`,
-- `{{x="2" model="#model-hero-title-location" user="company: ^^^, industry: %%%, Location: Spain, Madrid}}`
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8pbytUGJ`,
+- `{{x="2" model="#model-hero-title-location" user="company: ^^^, industry: %%%, context: &&&, location: ###"}}` +
 
 ## Hero Description
 
 (#model-hero-description)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8XVV4tFB`
- - `{{x="3" model="#model-hero-description" user="company: ^^^, industry: %%%"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8pFN962o`
+ - `{{x="3" model="#model-hero-description" user="company: ^^^, industry: %%%, context: &&&"}}` +
 
 ## Hero Description with Locatiom
 
 (#model-hero-description-location)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8hiLtixm`
- - `{{x="4" model="#model-hero-description-location" user="company: ^^^, industry: %%%, Location: Moldova, Chisinau"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8pYIP7sm`
+ - `{{x="4" model="#model-hero-description-location" user="company: ^^^, industry: %%%, context: &&&, location: ###"}}` +
 
 
 ## Single Testimonial
 
 (#model-testimonial)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8XrrNWKO`
- - `{{x="5" model="#model-testimonial" user="company: ^^^, industry: %%%"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8pH9ZneA`
+ - `{{x="5" model="#model-testimonial" user="company: ^^^, industry: %%%, context: &&&"}}` +
 
 ## Service/Feature name
 
 (#model-service-name)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8YA1l2xo`
- - `{{x="6" model="#model-service-name" user="industry: %%%"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8np4WOYh`
+ - `{{x="6" model="#model-service-name" user="company: ^^^, industry: %%%, context: &&&"}}`
 
 ## Feature/Service description
 
 (#model-service-description)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8YDDVhbN`
- - `{{x="7" model="#model-service-description" user="industry: %%%, Item: [Item name here]"}}`
+ - Model: `ft:gpt-3.5-turbo-1106:brizy::8ouGs4ca`
+ - `{{x="7" model="#model-service-description" user="company: ^^^, industry: %%%, context: &&&, item: [item name]"}}`
