@@ -15,41 +15,41 @@
 
 (#model-hero-title)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8ovu1ygK`
- - `{{x="1" model="#model-hero-title" user="company: ^^^, industry: %%%, context: &&&"}}`
+ - `{{x="1" model="#model-hero-title" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ## Hero Title with Location and company name
 
 (#model-hero-title-location)
 - Model: `ft:gpt-3.5-turbo-1106:brizy::8pbytUGJ`,
-- `{{x="2" model="#model-hero-title-location" user="company: ^^^, industry: %%%, context: &&&, location: ###"}}` +
+- `{{x="2" model="#model-hero-title-location" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Location: ***"}}` +
 
 ## Hero Description
 
 (#model-hero-description)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8pFN962o`
- - `{{x="3" model="#model-hero-description" user="company: ^^^, industry: %%%, context: &&&"}}` +
+ - `{{x="3" model="#model-hero-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
 
 ## Hero Description with Locatiom
 
 (#model-hero-description-location)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8pYIP7sm`
- - `{{x="4" model="#model-hero-description-location" user="company: ^^^, industry: %%%, context: &&&, location: ###"}}` +
+ - `{{x="4" model="#model-hero-description-location" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Location: ***}}` +
 
 
 ## Single Testimonial
 
 (#model-testimonial)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8pH9ZneA`
- - `{{x="5" model="#model-testimonial" user="company: ^^^, industry: %%%, context: &&&"}}` +
+ - `{{x="5" model="#model-testimonial" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
 
 ## Service/Feature name
 
 (#model-service-name)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8np4WOYh`
- - `{{x="6" model="#model-service-name" user="company: ^^^, industry: %%%, context: &&&"}}`
+ - `{{x="6" model="#model-service-name" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ## Feature/Service description
 
 (#model-service-description)
  - Model: `ft:gpt-3.5-turbo-1106:brizy::8ouGs4ca`
- - `{{x="7" model="#model-service-description" user="company: ^^^, industry: %%%, context: &&&, item: [item name]"}}`
+ - `{{x="7" model="#model-service-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: [item name]"}}`
