@@ -172,6 +172,13 @@ Response:
 
 ### Generates N samples of subheadings (random)
 
+```js
+Company Name: optional
+Type of Business: required
+Description: optional
+Samples Amount: required (number)
+```
+
 Example Prompt: `Company Name: Vitality Solutions, Type of Business: Wellness, Samples Amount: 2`
 
 ```js
