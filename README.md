@@ -206,10 +206,53 @@ Example Prompt: `Company Name: Brizy, Type of Business: Archeology, Samples Amou
 ```js
 Response:
 {
-"0": "Uncover India's Rich History with Brizy's Excavation and Archeology Services",
-"1": "Explore Ancient Civilizations with Brizy's Archeology Expertise in India",
-"2": "Brizy: Unearthing India's Cultural Heritage through Archeological Discoveries",
-"3": "Experience the Wonders of India's Past with Brizy's Archeology Exploration",
-"4": "Discover Hidden Treasures of Indian History with Brizy's Archeological Expeditions"
+  "0": "Uncover India's Rich History with Brizy's Excavation and Archeology Services",
+  "1": "Explore Ancient Civilizations with Brizy's Archeology Expertise in India",
+  "2": "Brizy: Unearthing India's Cultural Heritage through Archeological Discoveries",
+  "3": "Experience the Wonders of India's Past with Brizy's Archeology Exploration",
+  "4": "Discover Hidden Treasures of Indian History with Brizy's Archeological Expeditions"
+}
+```
+
+# ft:gpt-3.5-turbo-1106:brizy:v2-headings-loc:9H6zgQmS
+
+### Generates N samples of headings with location (random)
+
+```js
+Company Name: optional
+Type of Business: required
+Description: optional
+Samples Amount: required (number)
+Location: required
+```
+
+Example Prompt: `Company Name: GeoBrizy, Type of Business: Geology, Samples Amount: 3, Location: Palermo`
+
+```js
+Response:
+{
+  "0": "Explore Geological Wonders in Palermo",
+  "1": "Unearth the Earth's Secrets in Palermo",
+  "2": "Discover Dynamic Geology in Palermo"
+}
+```
+
+# ft:gpt-3.5-turbo-1106:brizy:v2-sub-head-loc:9H6p5hU9
+
+### Generates N SUBHEADING with location based on Heading
+
+```js
+Company Name: optional
+Type of Business: required
+Description: optional
+Location: required
+```
+
+Example Prompt: `Company Name: GeoBrizy, Type of Business: Geology, Heading: Unearth the Earth's Secrets in Palermo, Location: Palermo`
+
+```js
+Response:
+{
+  "0":"Discover Palermo's Geologic Wonders with GeoBrizy: Unearthing Earth's Ancient Secrets"
 }
 ```
