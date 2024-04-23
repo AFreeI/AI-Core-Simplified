@@ -188,3 +188,28 @@ Response:
     "1":"Personalized Wellness Coaching to Elevate Your Health and Well-being"
 }
 ```
+
+# ft:gpt-3.5-turbo-1106:brizy:v2-subheadings-loc:9GpdjVUK
+
+### Generates N samples of subheadings with location (random)
+
+```js
+Company Name: optional
+Type of Business: required
+Description: optional
+Samples Amount: required (number)
+Location: required
+```
+
+Example Prompt: `Company Name: Brizy, Type of Business: Archeology, Samples Amount: 5, Location: India`
+
+```js
+Response:
+{
+"0": "Uncover India's Rich History with Brizy's Excavation and Archeology Services",
+"1": "Explore Ancient Civilizations with Brizy's Archeology Expertise in India",
+"2": "Brizy: Unearthing India's Cultural Heritage through Archeological Discoveries",
+"3": "Experience the Wonders of India's Past with Brizy's Archeology Exploration",
+"4": "Discover Hidden Treasures of Indian History with Brizy's Archeological Expeditions"
+}
+```
