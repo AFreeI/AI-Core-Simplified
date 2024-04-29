@@ -168,7 +168,7 @@ Response:
 }
 ```
 
-# ft:gpt-3.5-turbo-1106:brizy:v2-subheadings:9AZpKaqk
+# ft:gpt-3.5-turbo-1106:brizy:v2-subheadings-y:9JJE7zCO
 
 ### Generates N samples of subheadings (random)
 
