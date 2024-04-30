@@ -17,8 +17,8 @@ ____________________________________
 ## Hero Title
 
 (#model-hero-title)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8ovu1ygK`
- - `{{x="1" model="#model-hero-title" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8ovu1ygK`
+- `{{x="1" model="#model-hero-title" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ## Hero Title with Location and company name
 
@@ -29,33 +29,33 @@ ____________________________________
 ## Hero Description
 
 (#model-hero-description)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8pFN962o`
- - `{{x="3" model="#model-hero-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8pFN962o`
+- `{{x="3" model="#model-hero-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
 
 ## Hero Description with Locatiom
 
 (#model-hero-description-location)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8pYIP7sm`
- - `{{x="4" model="#model-hero-description-location" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Location: ***}}` +
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8pYIP7sm`
+- `{{x="4" model="#model-hero-description-location" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Location: ***}}` +
 
 
 ## Single Testimonial
 
 (#model-testimonial)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8pH9ZneA`
- - `{{x="5" model="#model-testimonial" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8pH9ZneA`
+- `{{x="5" model="#model-testimonial" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}` +
 
 ## Service/Feature name
 
 (#model-service-name)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8np4WOYh`
- - `{{x="6" model="#model-service-name" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8np4WOYh`
+- `{{x="6" model="#model-service-name" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ## Feature/Service description
 
 (#model-service-description)
- - Model: `ft:gpt-3.5-turbo-1106:brizy::8ouGs4ca`
- - `{{x="7" model="#model-service-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: [item name]"}}`
+- Model: `ft:gpt-3.5-turbo-1106:brizy::8ouGs4ca`
+- `{{x="7" model="#model-service-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: [item name]"}}`
 
 
 # NEW MODELS
@@ -64,6 +64,8 @@ ____________________________________
 # ft:gpt-3.5-turbo-1106:brizy:v2-subhead-heading:9Bfs2joO
 
 ### Generate 1 `SUBHEADING` based on provided `HEADING`
+### Placeholder: `{{x="1" model="#model-subhead-heading" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: 6"}}`
+### Additional Info: Item is the id of the heading
 
 ```js
 Type of Business: required
@@ -83,6 +85,7 @@ Response:
 # ft:gpt-3.5-turbo-1106:brizy:v2-testimonials:9AHwixMO
 
 ### Generates N samples of testimonials
+### Placeholder example: `{{x="2" model="#model-testimonial" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}
 
 ```js
 Company Name: required
@@ -105,6 +108,7 @@ Response
 # ft:gpt-3.5-turbo-1106:brizy:v2-service-names:9AIDq9ti
 
 ### Generates N samples of service names
+### Placeholder example: `{{x="3" model="#model-service-name" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ```js
 Type of Business: required
@@ -129,7 +133,8 @@ Response
 # ft:gpt-3.5-turbo-1106:brizy:v2-service-desc:9Ae08JAe
 
 ### Generates service description for provided service names
-
+### Placeholder example: `{{x="4" model="#model-service-description" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: 26"}}`
+### Additional Info: Item is the id of the service name
 
 ```js
 Type of Business: required
@@ -150,6 +155,7 @@ Response
 # ft:gpt-3.5-turbo-1106:brizy:v2-headings:9AHoQahj
 
 ### Generates N samples of headings
+### Placeholder example: `{{x="5" model="#model-heading" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ```js
 Company Name: optional
@@ -171,6 +177,7 @@ Response:
 # ft:gpt-3.5-turbo-1106:brizy:v2-subheadings-y:9JJE7zCO
 
 ### Generates N samples of subheadings (random)
+### Placeholder example: `{{x="6" model="#model-subhead" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ```js
 Company Name: optional
@@ -192,6 +199,7 @@ Response:
 # ft:gpt-3.5-turbo-1106:brizy:v2-subheadings-loc:9GpdjVUK
 
 ### Generates N samples of subheadings with location (random)
+### Placeholder example: `{{x="7" model="#model-subheading-loc" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ```js
 Company Name: optional
@@ -217,6 +225,7 @@ Response:
 # ft:gpt-3.5-turbo-1106:brizy:v2-headings-loc:9H6zgQmS
 
 ### Generates N samples of headings with location (random)
+### Placeholder example: `{{x="8" model="#model-heading-loc" user="Company Name: ^^^, Type of Business: %%%, Description: &&&"}}`
 
 ```js
 Company Name: optional
@@ -240,6 +249,8 @@ Response:
 # ft:gpt-3.5-turbo-1106:brizy:v2-sub-head-loc:9H6p5hU9
 
 ### Generates N SUBHEADING with location based on Heading
+### Placeholder example: `{{x="9" model="#model-subhead-heading-loc" user="Company Name: ^^^, Type of Business: %%%, Description: &&&, Item: 6"}}`
+### Additional Info: Item is the id of the heading
 
 ```js
 Company Name: optional
